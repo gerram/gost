@@ -1,0 +1,7 @@
+*.xcbkptlist
+*.xcscheme
+.DS_Store
+*.pbxuser
+xcuserdata/
+*.xccheckout
+*~

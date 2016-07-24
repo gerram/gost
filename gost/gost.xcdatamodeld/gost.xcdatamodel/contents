@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="Site" representedClassName="Site" syncable="YES">
+        <attribute name="govbody_name" attributeType="String" syncable="YES"/>
+        <attribute name="last_updated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="site_id" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="uniq_url" attributeType="String" syncable="YES"/>
+        <attribute name="w3c_position" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="w3c_v_errors" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="w3c_v_probedate" attributeType="Date" defaultDateTimeInterval="-946782000" syncable="YES"/>
+        <attribute name="w3c_v_warnings" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="w3c_weight" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="website_name" attributeType="String" syncable="YES"/>
+        <attribute name="website_url" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Site" positionX="-63" positionY="395" width="128" height="210"/>
+    </elements>
+</model>

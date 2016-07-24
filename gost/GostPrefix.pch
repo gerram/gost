@@ -1,0 +1,22 @@
+//
+//  GostPrefix.pch
+//  gost
+//
+//  Created by George Malushkin on 24/07/16.
+//  Copyright © 2016 George Malushkin. All rights reserved.
+//
+
+
+//#ifndef GostPrefix_pch
+//#define GostPrefix_pch
+
+
+#import "GERDefines.h"
+
+
+#ifndef DEBUG
+    #define NSLog(...);
+#endif
+
+
+//#endif /* GostPrefix_pch */
