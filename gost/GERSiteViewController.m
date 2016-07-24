@@ -110,9 +110,7 @@
 {
     [self performSegueWithIdentifier:@"SiteToDetailSite" sender:indexPath];
     
-    // deselect
-    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-    cell.selected = NO;
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

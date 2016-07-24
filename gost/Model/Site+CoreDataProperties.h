@@ -27,10 +27,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSDate *w3c_v_probedate;
 @property (nullable, nonatomic, retain) NSDate *last_updated;
 
-- (void)loadFromDictionary:(NSDictionary *)dictionary;
-
-+ (Site *)findOrCreateSiteWithID:(NSNumber *)site_id inContext:(NSManagedObjectContext *)context;
-
 @end
 
 NS_ASSUME_NONNULL_END

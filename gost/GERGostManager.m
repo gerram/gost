@@ -71,6 +71,12 @@
 
 - (void)insertItemsToStorage:(NSArray *)items
 {
+    if (![[NSThread currentThread] isMainThread])
+    {
+        [self performSelector:_cmd onThread:[NSThread mainThread] withObject:nil waitUntilDone:NO];
+        return;
+    }
+    
     for (NSDictionary *item in items)
     {
         NSNumber *site_id = [NSNumber numberWithInteger:[item[@"id"] integerValue]];

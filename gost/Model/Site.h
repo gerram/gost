@@ -13,8 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Site : NSManagedObject
 
-// Insert code here to declare functionality of your managed object subclass
-
+- (void)loadFromDictionary:(NSDictionary *)dictionary;
++ (Site *)findOrCreateSiteWithID:(NSNumber *)site_id inContext:(NSManagedObjectContext *)context;
 
 @end
 
